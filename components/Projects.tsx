@@ -38,7 +38,7 @@ const Projects = () => {
                     alt={project.des}
                     width={100}
                     height={100}
-                    className="!w-full !h-full"
+                    className="!w-full !h-full rotate-2 rounded-lg skew-x-1"
                   />
                 </div>
                 <div className="mt-2">

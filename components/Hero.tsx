@@ -17,17 +17,17 @@ const Hero = () => {
       </div>
       <div className="relative h-screen w-full flex justify-center items-center">
         <div className="flex flex-col gap-y-8 justify-center items-center">
-          <p className="uppercase tracking-widest text-xs text-center font-semibold text-blue-100">
+          <p className="uppercase tracking-widest text-xs text-center font-semibold text-blue-100 text-[clamp(0.5rem,1rem,2rem)]">
             Dynamic Web Magic with Next.js
           </p>
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
-            className="text-center !text-3xl lg:!text-7xl"
+            className="text-center text-[clamp(1.25rem,2rem,4rem)]"
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Abobakr, a web Developer based in Egypt.
+          <p className="text-center md:tracking-wider mb-4 text-[clamp(1rem,1.5rem,2rem)]">
+            Hi! I&apos;m Abobakr, a Web Developer based in Egypt.
           </p>
-          <a href="#about">
+          <a href="#projects">
             <ButtonsCard
               title="Show My Work"
               position="right"
